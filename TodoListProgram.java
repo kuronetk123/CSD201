@@ -4,9 +4,6 @@ class TodoTask {
     boolean isCompleted;
     TodoTask next;
 
-    TodoTask() {
-    }
-
     TodoTask(int id, String description) {
         this.id = id;
         this.description = description;
